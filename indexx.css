@@ -1,0 +1,140 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;  
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ .hero{
+      padding: 15px;
+   display: flex; 
+   gap: 30px;
+   align-items: center;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.right{
+    width: 50%;
+}
+img{
+    object-fit: cover;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 25px;
+    color: #777;
+}
+button{
+    background-color: #006DDC;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}   
+.building{
+    padding: 15px;
+   display: flex; 
+   gap: 30px;
+   align-items: center;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Testimonials{
+    padding: 15px;
+   display: flex; 
+   gap: 30px;
+   align-items: center;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.bottom{
+  display: flex;
+  gap: 20px;
+  border-radius: 20px;
+}
+.card{
+    width: 25%;
+    border-radius: 20px;
+    border: 2px solid back;
+}
+.card-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 80%;
+}
+h4{
+   color: #777; 
+   font-size: 20px;  
+}
+.why{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.our{
+    display: flex;
+    border-radius: 20px;
+}
+.marketing{
+    display: flex;
+    gap: 150px;
+
+}
+.blog{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser 
+}
+.for{
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+.col-1{
+    width: 40%;
+}
+.col{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    margin-bottom: 20px;   
+}
+.pin{
+    color: #006DDC;
+}
+.copy{
+    color: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+
